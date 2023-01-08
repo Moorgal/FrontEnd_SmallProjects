@@ -1,0 +1,79 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+}
+
+header {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.section-center {
+  width: 90vw;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+}
+.nav-title {
+  color: purple;
+  align-self: center;
+}
+.nav-links {
+  align-self: center;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  color: black;
+  padding: 0.5rem;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+a:hover {
+  color: purple;
+}
+main {
+  height: calc(100vh - 4rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  text-align: center;
+}
+
+.btn {
+  text-transform: uppercase;
+  color: purple;
+  background-color: white;
+  padding: 0.5rem 0.75rem;
+  margin: 1rem;
+  font-weight: 700;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: lightgray;
+}

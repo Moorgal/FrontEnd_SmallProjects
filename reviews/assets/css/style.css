@@ -241,7 +241,7 @@ ul {
   text-align: center;
 }
 
-.title-underline {
+.underline {
   background: var(--primary-500);
   width: 7rem;
   height: 0.25rem;
@@ -336,16 +336,16 @@ body {
   -ms-transform: translateY(25%);
   -o-transform: translateY(25%);
 }
-.author {
+#author {
   margin-bottom: 0.25rem;
 }
-.job {
+#job {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   color: var(--primary-500);
   font-size: 0.85rem;
 }
-.info {
+#info {
   margin-bottom: 0.75rem;
 }
 .prev-btn,
